@@ -5,4 +5,6 @@ number = gets.chomp.to_i
 number.times do |i|
     puts i
 end
-puts number
+if number >= 0
+  puts number
+end

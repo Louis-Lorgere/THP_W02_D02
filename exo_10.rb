@@ -9,5 +9,7 @@ index.times do |i|
     number = number + 1
     puts "Tu avais #{i} ans"
 end
-puts number
-puts "Tu avais #{index} ans"
+if (number <= 2021)
+  puts number
+  puts "Tu avais #{index} ans"
+end

@@ -7,5 +7,3 @@ email_list = Array.new
         email_list.push "jean.dupont.#{i}@email.fr"
     end
 end
-
-puts "#{email_list}"

@@ -6,4 +6,6 @@ number.times do
     puts number
     number = number - 1
 end
-puts number
+if number >= 0
+    puts number
+end

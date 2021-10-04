@@ -8,5 +8,6 @@ index.times do |i|
     
     puts "Il y a #{index - i} ans, tu avais #{i} ans"
 end
-
-puts "Il y a 0 ans, tu avais #{index} ans"
+if number <= 2021
+    puts "Il y a 0 ans, tu avais #{index} ans"
+end
