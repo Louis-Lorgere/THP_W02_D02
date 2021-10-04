@@ -8,11 +8,11 @@ if (floors >= 1 && floors <=25)
     j = 1
     while j <= floors - n
       print " "
-     j = j + 1
+      j = j + 1
     end
-     while j <= floors + n - 1
+    while j <= floors
       print "#"
-    j = j + 1
+      j = j + 1
     end
     print "\n"
     n = n + 1
